@@ -28,6 +28,7 @@ echo "SSH stuff"
 sed "s,#PermitRootLogin prohibit-password,PermitRootLogin no,g" "/etc/ssh/sshd_config"
 sed "s,#PubkeyAuthentication yes,PubkeyAuthentication yes,g" "/etc/ssh/sshd_config"
 sed "s,#PasswordAuthentication yes,PasswordAuthentication yes,g" "/etc/ssh/sshd_config"
+rc-service sshd restart
 echo "Done"
 
 while true
