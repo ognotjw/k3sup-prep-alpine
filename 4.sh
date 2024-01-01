@@ -7,7 +7,7 @@ sudo sed "s,PasswordAuthentication yes,PasswordAuthentication no,g" "/etc/ssh/ss
 echo "Done"
 
 echo "Sudo stuff"
-sudo sed -i "/alpine ALL=(ALL) NOPASSWD:ALL/d" /etc/sudoers
+sudo sed -i "/alpine ALL=(ALL) NOPASSWD:ALL/d" "/etc/sudoers"
 echo "Done
 
 exit 0
