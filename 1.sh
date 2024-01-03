@@ -3,7 +3,7 @@
 echo "Script has started"
 
 echo "Checking for root"
-if [ "$(whoami)" -eq "root" ]
+if [ "$(whoami)" == "root" ]
 then
 	echo "Done"
 else
