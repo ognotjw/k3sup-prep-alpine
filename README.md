@@ -20,3 +20,4 @@ Something I made for preparing to bootstrap k3s in Alpine Linux with K3sup. This
 # Notes
 1. WARNING: THIS SCRIPT WILL DISABLE THE ROOT ACCOUNT
 2. Configuration files of some programs will be changed (check the code).
+3. This script will automatically reboot your machine.
