@@ -3,7 +3,7 @@
 echo "Script has started"
 
 echo "Checking for alpine user"
-if [ "$(whoami)" -eq "alpine" ]
+if [ "$(whoami)" == "alpine" ]
 then
 	echo "Done"
 else
