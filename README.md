@@ -12,13 +12,11 @@ Something I made for preparing to bootstrap k3s in Alpine Linux with K3sup. This
 2. Make the scripts executable (with "chmod +x filename").
 3. Run 1.sh as root.
 4. Run 2.sh as root.
-5. Using the "visudo" command, uncomment the line that has "%sudo ALL=(ALL:ALL) ALL".
-6. Test sudo privileges as the "alpine" user (e.g. running a command that requires sudo privileges).
-7. Run 3.sh as the "alpine" user.
-8. Copy the SSH keys to the machine to the "alpine" user.
-9. Run 4.sh as the "alpine" user.
-10. Using "sudo visudo", remove or comment the line that has "alpine ALL=(ALL) NOPASSWD:ALL".
-11. Done
+5. Test sudo privileges as the "alpine" user (e.g. running a command that requires sudo privileges).
+6. Run 3.sh as the "alpine" user.
+7. Copy the SSH keys to the machine to the "alpine" user.
+8. Run 4.sh as the "alpine" user.
+9. Done
 
 # Notes
 1. WARNING: THIS SCRIPT WILL DISABLE THE ROOT ACCOUNT
