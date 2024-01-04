@@ -20,6 +20,7 @@ echo "Done"
 echo "Sudo stuff"
 addgroup sudo
 addgroup alpine sudo
+sed -i "s,# %sudo	ALL=(ALL:ALL) ALL,%sudo 	ALL=(ALL:ALL) ALL,g" "/etc/sudoers"
 echo "alpine ALL=(ALL) NOPASSWD:ALL" >> "/etc/sudoers"
 echo "Done"
 
@@ -32,7 +33,7 @@ echo "Done"
 
 while true
 do
-	echo "Don't forget to check the instructions for the next steps. Continue? Y/n (case-sensitive)"
+	echo "Don't forget to test sudo privileges for the alpine user. Continue? Y/n (case-sensitive)"
 	read answer
 
 	if [ "$answer" == "Y" ]
