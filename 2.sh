@@ -24,9 +24,9 @@ echo "alpine ALL=(ALL) NOPASSWD:ALL" >> "/etc/sudoers"
 echo "Done"
 
 echo "SSH stuff"
-sed "s,#PermitRootLogin prohibit-password,PermitRootLogin no,g" "/etc/ssh/sshd_config"
-sed "s,#PubkeyAuthentication yes,PubkeyAuthentication yes,g" "/etc/ssh/sshd_config"
-sed "s,#PasswordAuthentication yes,PasswordAuthentication yes,g" "/etc/ssh/sshd_config"
+sed -i "s,#PermitRootLogin prohibit-password,PermitRootLogin no,g" "/etc/ssh/sshd_config"
+sed -i "s,#PubkeyAuthentication yes,PubkeyAuthentication yes,g" "/etc/ssh/sshd_config"
+sed -i "s,#PasswordAuthentication yes,PasswordAuthentication yes,g" "/etc/ssh/sshd_config"
 rc-service sshd restart
 echo "Done"
 
