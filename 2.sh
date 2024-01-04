@@ -45,4 +45,6 @@ do
 done
 echo "Done"
 
-exit 0
+echo "Rebooting in 1 minute"
+sleep 60
+reboot
