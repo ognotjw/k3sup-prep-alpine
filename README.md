@@ -8,7 +8,7 @@ Something I made for preparing to bootstrap k3s in Alpine Linux with K3sup. This
 4. Have "git" installed.
 
 # Instructions
-1. Run "git clone https://github.com/ognotjw/k3sup-prep-alpine /home/k3sup-prep".
+1. Run "git clone https://github.com/ognotjw/k3sup-prep-alpine /home/sysprep".
 2. Make the scripts executable (with "chmod +x filename").
 3. Run 1.sh as root.
 4. Run 2.sh as root.
