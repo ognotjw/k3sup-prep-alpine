@@ -14,7 +14,7 @@ fi
 
 echo "Install necessary packages"
 apk -U upgrade
-apk add curl sudo nano bash
+apk add curl sudo bash
 echo "Done"
 
 echo "Change shell to bash"
