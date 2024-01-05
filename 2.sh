@@ -12,9 +12,13 @@ else
 fi
 
 echo "Setting editor to nano"
-echo "export EDITOR=/usr/bin/nano" >> /etc/profile
-sleep 5
-echo "export VISUAL=/usr/bin/nano" >> /etc/profile
+echo "export EDITOR=/usr/bin/nano" >> "/etc/profile"
+sleep 2
+echo "export VISUAL=/usr/bin/nano" >> "/etc/profile"
+sleep 2
+echo "export EDITOR=/usr/bin/nano" >> "/etc/profile.d/00-bashrc.sh"
+sleep 2
+echo "export VISUAL=/usr/bin/nano" >> "/etc/profile/00-bashrc.sh"
 echo "Done"
 
 echo "Sudo stuff"
