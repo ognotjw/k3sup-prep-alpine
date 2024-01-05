@@ -11,12 +11,6 @@ else
   exit 1
 fi
 
-echo "Setting editor to nano"
-echo -e "\nexport EDITOR=/usr/bin/nano" >> "/etc/profile"
-sleep 2
-echo -e "\nexport VISUAL=/usr/bin/nano" >> "/etc/profile"
-echo "Done"
-
 echo "Sudo stuff"
 addgroup sudo
 addgroup alpine sudo
