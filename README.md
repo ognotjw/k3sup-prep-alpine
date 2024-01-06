@@ -16,7 +16,7 @@ Something I made for preparing to bootstrap k3s in Alpine Linux with K3sup. This
 6. Run 3.sh as the "alpine" user.
 7. Copy the SSH keys to the machine to the "alpine" user.
 8. Run 4.sh as the "alpine" user.
-9. (Optional) To disable passwordless sudo, run 5.sh as the "alpine" user.
+9. (Optional) To disable passwordless sudo, run 5.sh as the "alpine" user. You probably shouldn't do this before installing Kubernetes.
 10. Done
 
 # Notes
