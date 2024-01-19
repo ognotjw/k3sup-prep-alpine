@@ -24,3 +24,7 @@ Something I made for preparing to bootstrap k3s in Alpine Linux with K3sup. This
 2. Configuration files of some programs will be changed (check the code).
 3. Some of these scripts will automatically reboot the machine.
 4. Only run these scripts once because they are very specific.
+
+# Advanced (for all you nerds 🤓 /s)
+1. If you have a user different from "alpine" that you would like to install Kubernetes to
+  a. Replace all "alpine" strings with your user of choice in the scripts 2.sh, 3.sh, 5.sh.
