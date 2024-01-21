@@ -3,7 +3,7 @@ Something I made for preparing to bootstrap k3s in Alpine Linux with K3sup. This
 
 # Prerequisites
 1. Have a root user.
-2. Have an "alpine" user.
+2. Have an "kube" user.
 3. Have community repositories enabled.
 4. Have "git" installed.
 
@@ -12,11 +12,11 @@ Something I made for preparing to bootstrap k3s in Alpine Linux with K3sup. This
 2. Make the scripts executable (with "chmod +x filename").
 3. Run 1.sh as root.
 4. Run 2.sh as root.
-5. Test sudo privileges as the "alpine" user (e.g. running a command that requires sudo privileges).
-6. Run 3.sh as the "alpine" user.
-7. Copy the SSH keys to the machine to the "alpine" user.
-8. Run 4.sh as the "alpine" user.
-9. (Optional) To disable passwordless sudo, run 5.sh as the "alpine" user. You probably shouldn't do this before installing Kubernetes.
+5. Test sudo privileges as the "kube" user (e.g. running a command that requires sudo privileges).
+6. Run 3.sh as the "kube" user.
+7. Copy the SSH keys to the machine to the "kube" user.
+8. Run 4.sh as the "kube" user.
+9. (Optional) To disable passwordless sudo, run 5.sh as the "kube" user. You probably shouldn't do this before installing Kubernetes.
 10. Done
 
 # Notes
@@ -27,4 +27,4 @@ Something I made for preparing to bootstrap k3s in Alpine Linux with K3sup. This
 
 # Advanced (for all you nerds 🤓 /s)
 1. If you have a user different from "alpine" that you would like to install Kubernetes to
-  a. Replace all "alpine" strings with your user of choice in the scripts 2.sh, 3.sh, 5.sh.
+  a. Replace all "kube" strings with your user of choice in the scripts 2.sh, 3.sh, 5.sh.
