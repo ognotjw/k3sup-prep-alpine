@@ -2,12 +2,12 @@
 
 echo "Script has started"
 
-echo "Checking for alpine user"
-if [ "$(whoami)" == "alpine" ]
+echo "Checking for kube user"
+if [ "$(whoami)" == "kube" ]
 then
 	echo "Done"
 else
-	echo "Run this script with the alpine user again"
+	echo "Run this script with the kube user again"
   exit 1
 fi
 
@@ -18,7 +18,7 @@ echo "Done"
 
 while true
 do
-	echo "Don't forget to copy the ssh keys to the alpine user. Continue? Y/n (case-sensitive)"
+	echo "Don't forget to copy the ssh keys to the kube user. Continue? Y/n (case-sensitive)"
 	read answer
 
 	if [ "$answer" == "Y" ]
