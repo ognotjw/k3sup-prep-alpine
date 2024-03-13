@@ -15,10 +15,9 @@ Something I made for preparing to bootstrap k3s in Alpine Linux with K3sup. This
 2. Make the scripts executable (with "chmod +x filename").
 3. Run 1.sh as root.
 4. Run 2.sh as root.
-5. Run 3.sh
-6. Copy the SSH keys to the machine to the "root" account.
-7. Run 4.sh
-8. Done
+5. Copy the SSH keys to the machine to the "root" account.
+6. Run 3.sh
+7. Done
 
 # Notes
 
