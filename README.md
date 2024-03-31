@@ -7,17 +7,18 @@ Something I made for preparing to bootstrap k3s in Alpine Linux with K3sup. This
 1. Have a root user enabled.
 2. Have community repositories enabled.
 3. Have "git" installed.
-4. Have Alpine linux.
+4. Have Alpine Linux.
 
 # Instructions
 
-1. Run "git clone https://github.com/ognotjw/k3sup-prep-alpine /home/sysprep".
-2. Make the scripts executable (with "chmod +x filename").
-3. Run 1.sh as root.
-4. Run 2.sh as root.
-5. Copy the SSH keys to the machine to the "root" account.
-6. Run 3.sh
-7. Done
+1. Run "git clone https://github.com/ognotjw/k3sup-prep-alpine".
+2. "cd" to the repository directory on your local drive (usually in the current directory, it should be called "k3sup-prep-alpine").
+3. Make the scripts executable (with "chmod +x filename").
+4. Run 1.sh as root.
+5. Run 2.sh as root.
+6. Copy the SSH keys to the machine to the "root" account.
+7. Run 3.sh
+8. Done
 
 # Notes
 
