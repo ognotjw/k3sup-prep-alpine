@@ -17,7 +17,3 @@ sed -i "s,#PubkeyAuthentication yes,PubkeyAuthentication yes,g" "/etc/ssh/sshd_c
 sed -i "s,#PasswordAuthentication yes,PasswordAuthentication yes,g" "/etc/ssh/sshd_config"
 rc-service sshd restart
 echo "Done"
-
-echo "Rebooting in 1 minute"
-sleep 60
-reboot
